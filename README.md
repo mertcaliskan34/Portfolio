@@ -1,17 +1,17 @@
-# Portfolio Website
+# My Portfolio Website
 
-A stunning, modern portfolio website built with React, Vite, and Tailwind CSS. Showcase your projects, skills, and personality with a beautiful, responsive design that will impress employers and clients.
+A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. Showcasing my projects, skills, and professional experience with a clean, elegant design.
 
 ## ✨ Features
 
 - 🎨 **Modern, Beautiful UI** - Glassmorphism effects, smooth animations, and gradient designs
 - 📱 **Fully Responsive** - Looks great on all devices (desktop, tablet, mobile)
 - 🚀 **Fast & Optimized** - Built with Vite for lightning-fast performance
-- 🔗 **GitHub Integration** - Automatically fetches and displays your GitHub projects
-- ✨ **Smooth Animations** - Powered by Framer Motion for delightful interactions
+- 🔗 **GitHub Integration** - Automatically fetches and displays my GitHub projects
+- ✨ **Smooth Animations** - Powered by Framer Motion for fluid interactions
 - 🌙 **Dark Theme** - Modern dark theme with vibrant accent colors
-- 📊 **Skills Showcase** - Animated progress bars for your technical skills
-- 📧 **Contact Section** - Easy ways for potential employers to reach you
+- 📊 **Skills Showcase** - Animated progress bars displaying technical proficiency
+- 📧 **Contact Section** - Professional contact information and social links
 
 ## 🚀 Quick Start
 
@@ -21,9 +21,9 @@ A stunning, modern portfolio website built with React, Vite, and Tailwind CSS. S
 npm install
 ```
 
-### 2. Configure Your Information
+### 2. Configure Personal Information
 
-Open `src/config.js` and update with your personal information:
+Open `src/config.js` and update with personal information:
 
 ```javascript
 export const config = {
@@ -41,7 +41,7 @@ export const config = {
 npm run dev
 ```
 
-Visit `http://localhost:5173` to see your portfolio!
+The application will be available at `http://localhost:5173`.
 
 ### 4. Build for Production
 
@@ -49,35 +49,11 @@ Visit `http://localhost:5173` to see your portfolio!
 npm run build
 ```
 
-The built files will be in the `dist` folder.
-
-## 📦 Deployment to Netlify
-
-### Easy Method (Recommended)
-
-1. **Push to GitHub**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin YOUR_REPO_URL
-   git push -u origin main
-   ```
-
-2. **Deploy on Netlify**
-   - Go to [netlify.com](https://netlify.com)
-   - Click "Add new site" → "Import an existing project"
-   - Connect GitHub and select your repository
-   - Netlify auto-detects settings from `netlify.toml`
-   - Click "Deploy site" 🎉
-
-Your site will be live at `your-site-name.netlify.app`!
-
-For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
+The built files will be in the `dist` folder, ready for deployment to any static hosting service.
 
 ## 🎨 Customization
 
-### Update Your Information
+### Update Personal Information
 Edit `src/config.js` to customize:
 - Personal information (name, bio, location, email)
 - Social media links
@@ -111,11 +87,10 @@ portfolio/
 │   │   ├── Projects.jsx
 │   │   ├── Contact.jsx
 │   │   └── Footer.jsx
-│   ├── config.js    # Your personal configuration
+│   ├── config.js    # Personal configuration
 │   ├── App.jsx      # Main app component
 │   ├── main.jsx     # Entry point
 │   └── index.css    # Global styles
-├── netlify.toml     # Netlify configuration
 └── package.json     # Dependencies
 ```
 
@@ -130,20 +105,12 @@ portfolio/
 
 ## 📝 Notes
 
-- Make sure your GitHub username in `config.js` is correct
+- Ensure the GitHub username in `config.js` is correct for project fetching
 - Only public, non-forked repositories are displayed
 - Projects are sorted by last updated date
 - The site automatically generates preview images for each project
 
-## 🤝 Contributing
-
-Feel free to fork this project and customize it for your own portfolio!
-
 ## 📄 License
 
 This project is open source and available under the MIT License.
-
----
-
-**Made with ❤️ for showcasing your amazing work!**
 
