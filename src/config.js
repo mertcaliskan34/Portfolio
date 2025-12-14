@@ -3,7 +3,7 @@ export const config = {
   // Personal Information
   name: "Mert Çalışkan",
   bio: `
-   I'm a passionate QA Engineer & Mobile Developer with
+   I'm a passionate QA Engineer and Mobile Developer with
    hands-on experience in mobile development, full-stack web
    development, and software testing. I possess a strong technical
    background in React Native, Flutter, TypeScript, Supabase, PostgreSQL
